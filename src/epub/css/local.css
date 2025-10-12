@@ -56,3 +56,11 @@ header > [epub|type~="z3998:salutation"]{
 	display: none;
 }
 /* End hymn styling */
+
+/* Miscellaneous blockquote styling */
+#chapter-4 blockquote p{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+/* End miscellaneous blockquote styling */
