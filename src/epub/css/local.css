@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* letter styling */
+/* Letter styling */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
@@ -38,3 +38,21 @@ header > [epub|type~="z3998:salutation"]{
 	text-align: initial;
 	text-indent: 0;
 }
+/* End letter styling */
+
+/* Hymn styling */
+[epub|type~="z3998:hymn"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:hymn"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:hymn"] p > span + br{
+	display: none;
+}
+/* End hymn styling */
