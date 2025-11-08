@@ -63,4 +63,13 @@ header > [epub|type~="z3998:salutation"]{
 	text-align: center;
 	text-indent: 0;
 }
+
+#chapter-18 blockquote header{
+	text-align: left;
+}
+
+#chapter-18 blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
 /* End miscellaneous blockquote styling */
