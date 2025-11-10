@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-16.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Title is an independant clause.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-17.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Dialogue continues.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-18.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Blockquote continues.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
