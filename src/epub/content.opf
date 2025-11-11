@@ -53,8 +53,8 @@
 			&lt;p&gt;In the fifth Lord Peter novel, &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy &lt;abbr&gt;L.&lt;/abbr&gt; Sayers&lt;/a&gt; offers a humorous look at the English aristocracy, proponents of free love, the writing and publishing of crime novels, and a fake seance. Sayers based the murder victim on her own ex-lover, giving an autobiographical note to the story. First published in 1930, it has been adapted for television and radio multiple times.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<!--		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>-->
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20120907</dc:source>
+		<dc:source>https://archive.org/details/oncasewithlordpe0000saye</dc:source>
 		<meta property="se:production-notes">Page scans not currently available on IA.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
