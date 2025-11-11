@@ -80,4 +80,8 @@ header > [epub|type~="z3998:salutation"]{
 #chapter-18 blockquote:nth-of-type(2) p{
 	text-indent: initial;
 }
+
+#chapter-18 blockquote > p > abbr:first-child{
+	font-style: italic;
+}
 /* End miscellaneous blockquote styling */
