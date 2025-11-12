@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dorothy-l-sayers/strong-poison</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-01-01T16:00:26Z</dc:date>
+		<meta property="dcterms:modified">2026-01-01T16:00:26Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -46,17 +46,23 @@
 		<meta id="collection-1" property="belongs-to-collection">Lord Peter Wimsey</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">6</meta>
-		<dc:description id="description">Lord Peter works to exonerate a woman accused of poisoning her ex-lover.</dc:description>
+		<meta id="collection-2" property="belongs-to-collection">The Crime Writers’ Association Top 100 Crime Novels of All Time</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta property="group-position" refines="#collection-2">67</meta>
+		<meta id="collection-3" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
+		<meta property="collection-type" refines="#collection-3">set</meta>
+		<meta property="group-position" refines="#collection-3">39</meta>
+		<dc:description id="description">A gentleman detective works to exonerate a woman accused of poisoning her ex-lover.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Lord Peter Wimsey is in love. Unfortunately, it is with a woman who has very nearly been convicted of murder.&lt;/p&gt;
-			&lt;p&gt;Crime novelist Harriet Vane is being tried for the murder of her ex-lover, a writer with strong views on free love and atheism who seems to have not been true to his professed beliefs. He has died by arsenic poisoning: Harriet is known to have quarreled with him, she saw him the night he was poisoned, and she has just written a manuscript describing how easy it is to poison someone by arsenic. Lord Peter believes in her innocence, though, and has mere weeks to find the actual culprit before she is convicted and hanged.&lt;/p&gt;
-			&lt;p&gt;In the fifth Lord Peter novel, &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy &lt;abbr&gt;L.&lt;/abbr&gt; Sayers&lt;/a&gt; offers a humorous look at the English aristocracy, proponents of free love, the writing and publishing of crime novels, and a fake seance. Sayers based the murder victim on her own ex-lover, giving an autobiographical note to the story. First published in 1930, it has been adapted for television and radio multiple times.&lt;/p&gt;
+			&lt;p&gt;Lord Peter Wimsey, gentleman detective, is in love. Unfortunately, it is with a woman who has very nearly been convicted of murder.&lt;/p&gt;
+			&lt;p&gt;Crime novelist Harriet Vane is being tried for the murder of her ex-lover, a writer with strong views on free love and atheism who seems to have not been true to his professed beliefs. He has died by arsenic poisoning. Harriet is known to have quarreled with him; she saw him the night he was poisoned; and she has just written a manuscript describing how easy it is to poison someone by arsenic. Lord Peter believes in her innocence, though, and has mere weeks to find the actual culprit before she’s convicted and hanged.&lt;/p&gt;
+			&lt;p&gt;In this, the sixth &lt;a href="https://standardebooks.org/collections/lord-peter-wimsey"&gt;Lord Peter Wimsey novel&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt; offers a humorous look at the English aristocracy, proponents of free love, the writing and publishing of crime novels, and a fake seance. Sayers based the murder victim on her own ex-lover, lending an autobiographical note to the story. First published in 1930, the novel has been adapted for television and radio multiple times.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20120907</dc:source>
 		<dc:source>https://archive.org/details/oncasewithlordpe0000saye</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">80150</meta>
+		<meta property="se:reading-ease.flesch">74.19</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Strong_Poison</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-l-sayers_strong-poison</meta>
 		<dc:creator id="author">Dorothy L. Sayers</dc:creator>
@@ -89,6 +95,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
