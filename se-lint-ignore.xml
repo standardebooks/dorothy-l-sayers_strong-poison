@@ -2,11 +2,13 @@
 <se-lint-ignore>
 	<file path="chapter-16.xhtml">
 		<ignore code="t-017">
+			<line>92</line>
 			<reason>Title is an independant clause.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-18.xhtml">
 		<ignore code="t-003">
+			<line>191</line>
 			<reason>Blockquote continues.</reason>
 		</ignore>
 	</file>
